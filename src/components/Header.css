@@ -1,5 +1,13 @@
+.header {
+    margin-top: 50px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
 .header img {
     width: 40%;
     height: 100%;
     object-fit: cover;
+    padding: 1rem;
+    margin-bottom: 0.2rem;
 }

@@ -5,7 +5,7 @@
 }
 
 body{
-  background-color: #367591;
+  background-color: black;
   font-family: 'Poppins', sans-serif;
   padding: 10px;
   font-size: 20px;
@@ -13,6 +13,7 @@ body{
   margin: 0 auto; /*Center the container horizontally in the middle of the page.*/
   padding: 12px;
   color: white;
+  text-align: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {

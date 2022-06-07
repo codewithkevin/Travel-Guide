@@ -1,13 +1,14 @@
 import React from "react";
-import Hero from './images/Hero.png'
 
 import './Header.css';
 
 const Header = () => {
 
     return (
-        <section className="header">
-            
+        <section className="navbar">
+            <div className="logo">
+                <h4>LOGO</h4>
+            </div>    
         </section>    
     )
 };

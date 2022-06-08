@@ -1,3 +1,7 @@
+import Hero1 from './images/japan.jpg';
+import Hero2 from './images/opera.jpg';
+import Hero3 from './images/Geirangerfjord.jpg';
+
 const data = [
     {
         "id": 1,
@@ -6,7 +10,7 @@ const data = [
         "date": "12 Jan, 2021-24 Jan, 2021",
         "description": "Japan is a country in East Asia. It is the world's most populous country, with over 127,000,000 inhabitants. It is also one of the most populous countries in the world, with over 38.6 million people living in Tokyo.",
         "view": "View on Google Map",
-        "image": "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+        "image": Hero1
     },
     {
         "id": 2,
@@ -15,7 +19,7 @@ const data = [
         "date": "12 Jan, 2021-24 Jan, 2021",
         "description": "Japan is a country in East Asia. It is the world's most populous country, with over 127,000,000 inhabitants. It is also one of the most populous countries in the world, with over 38.6 million people living in Tokyo.",
         "view": "View on Google Map",
-        "image": "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+        "image": Hero2
     },
     {
         "id": 3,
@@ -24,7 +28,7 @@ const data = [
         "date": "12 Jan, 2021-24 Jan, 2021",
         "description": "Japan is a country in East Asia. It is the world's most populous country, with over 127,000,000 inhabitants. It is also one of the most populous countries in the world, with over 38.6 million people living in Tokyo.",
         "view": "View on Google Map",
-        "image": "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+        "image": Hero3
     },
 ]
 

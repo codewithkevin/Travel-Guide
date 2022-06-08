@@ -13,11 +13,7 @@ function App() {
     return (
       <Hero
         key={item.id}
-        location={item.location}
-        date={item.date}
-        description={item.description}
-        view={item.view}
-        image={item.image}
+        item={item}
       />
     );
   });

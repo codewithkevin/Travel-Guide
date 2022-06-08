@@ -13,7 +13,7 @@ function App() {
     return (
       <Hero
         key={item.id}
-        item={item}
+        {...item}
       />
     );
   });

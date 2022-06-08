@@ -12,13 +12,16 @@ function App() {
   return (
     <div className="App">
 
-      <Header />
-    <div>
+      <div className="header">
+        <Header />
+      </div>
+
+
+
+    </div>
 
        
-    </div>
-      <Hero />
-    </div>
+   
 
 
   );

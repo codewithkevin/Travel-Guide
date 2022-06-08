@@ -1,9 +1,6 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import HeroImage from './images/japan.jpg';
-
-
 
 
 import Header from './components/Header';

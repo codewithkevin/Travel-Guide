@@ -38,4 +38,5 @@ body{
   font-size: 20px;
   font-weight: bold;
   background-color: #9689895d;
+  max-width: fit-content;
 }

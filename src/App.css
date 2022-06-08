@@ -33,3 +33,9 @@ body{
 .hero .date {
   font-weight: bold;
 }
+
+.place{
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #9689895d;
+}

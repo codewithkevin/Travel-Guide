@@ -2,6 +2,16 @@ import React from 'react';
 // import Hero1 from './images/japan.jpg';
 
 const Hero = (props) => {
+
+    let place 
+    if(props.location === "Mount Fuji"){
+        place = "Vacation in Japan"
+    } else if(props.location === "Sydney Opera House"){
+        place = "Vacation in Australia"
+    } else if(props.location === "Geirangerfjord"){
+        place = "Vacation in Norway"
+    }
+
     return (
         <div className="hero">
             <div className="row">
@@ -14,10 +24,11 @@ const Hero = (props) => {
 
                 <div className="col-sm-6">
                     <div className="hero-text">
-                        <p className="counrty">{props.country}<span className="view">{props.view}</span></p>
+                        <p className="counrty">{props.country}  <span className="view">{props.view}</span></p>
                         <h1>{props.location}</h1>
                         <p className="date">{props.date}</p>
                         <p>{props.description}</p>
+                        {place && <p className="place">{place}</p>}
                     </div>
                 </div> 
 

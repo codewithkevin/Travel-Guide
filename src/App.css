@@ -25,3 +25,11 @@ body{
   height: auto;
 }
 
+.hero .view {
+  font-size: 10px;
+  color: gray;
+}
+
+.hero .date {
+  font-weight: bold;
+}

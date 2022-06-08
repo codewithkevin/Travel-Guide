@@ -13,10 +13,11 @@ function App() {
     <div className="App">
 
       <Header />
-      <div>
-        <Hero />
-      </div>
-      
+    <div>
+
+       
+    </div>
+      <Hero />
     </div>
 
 

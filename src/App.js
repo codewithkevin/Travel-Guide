@@ -16,6 +16,10 @@ function App() {
         <Header />
       </div>
 
+      <div className="hero">
+        <Hero />
+      </div>
+
 
 
     </div>

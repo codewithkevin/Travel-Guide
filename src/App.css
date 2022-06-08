@@ -3,17 +3,25 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body{
   font-family: 'Poppins', sans-serif;
   padding: 10px;
   font-size: 20px;
-  max-width: 960px; /*Limits the width of the container but let's it get smaller if needed.*/
-  margin: 0 auto; /*Center the container horizontally in the middle of the page.*/
 }
 
-/* .hero {
-  margin-top: 70px;
-} */
+.App {
+  max-width: 960px; /*Limits the width of the container but let's it get smaller if needed.*/
+  margin: 0 auto; /*Center the container horizontally in the middle of the page.*/
+  padding: 12px;
+  color: black;
+}
 
+.hero {
+  margin-top: 20px;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
 
